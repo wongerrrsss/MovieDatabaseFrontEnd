@@ -44,7 +44,7 @@ export default class App extends Component {
         "genre": this.state.genre,
         "rating": this.state.rating
       }),
-      accessKey: "123"
+      
     })
       .then(response => response.json())
       .then(data => console.log(data))
